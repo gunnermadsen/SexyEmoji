@@ -14,6 +14,8 @@
 		80924D23274048A200B94DDF /* Sexy_WIdgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80924D22274048A200B94DDF /* Sexy_WIdgetTests.swift */; };
 		80924D2D274048A200B94DDF /* Sexy_WIdgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80924D2C274048A200B94DDF /* Sexy_WIdgetUITests.swift */; };
 		80924D2F274048A200B94DDF /* Sexy_WIdgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80924D2E274048A200B94DDF /* Sexy_WIdgetUITestsLaunchTests.swift */; };
+		80924D3C274048C800B94DDF /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80924D3B274048C800B94DDF /* Emoji.swift */; };
+		80924D4027404A5400B94DDF /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80924D3F27404A5400B94DDF /* EmojiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		80924D28274048A200B94DDF /* Sexy-WIdgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sexy-WIdgetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80924D2C274048A200B94DDF /* Sexy_WIdgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sexy_WIdgetUITests.swift; sourceTree = "<group>"; };
 		80924D2E274048A200B94DDF /* Sexy_WIdgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sexy_WIdgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80924D3B274048C800B94DDF /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		80924D3F27404A5400B94DDF /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,10 @@
 			children = (
 				80924D11274048A000B94DDF /* Sexy_WIdgetApp.swift */,
 				80924D13274048A000B94DDF /* ContentView.swift */,
+				80924D3F27404A5400B94DDF /* EmojiView.swift */,
 				80924D15274048A200B94DDF /* Assets.xcassets */,
 				80924D17274048A200B94DDF /* Preview Content */,
+				80924D3B274048C800B94DDF /* Emoji.swift */,
 			);
 			path = "Sexy-WIdget";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80924D3C274048C800B94DDF /* Emoji.swift in Sources */,
+				80924D4027404A5400B94DDF /* EmojiView.swift in Sources */,
 				80924D14274048A000B94DDF /* ContentView.swift in Sources */,
 				80924D12274048A000B94DDF /* Sexy_WIdgetApp.swift in Sources */,
 			);
